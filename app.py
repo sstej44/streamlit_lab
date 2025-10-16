@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import re
+import matplotlib as plt
+matplotlib.use("Agg")  # Use non-GUI backend for Streamlit
 from pathlib import Path
 import streamlit as st
 
